@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Eye Care",
+        "short": "Your eyes are an important part of your health. You should get your eyes checked as often as your health care provider recommends it",
+        "detail": "An eye care professional (ECP) is an individual who provides a service related to the eyes or vision. It is any healthcare worker involved in eye care, from one with a small amount of post-secondary training to practitioners with a doctoral level of education.",
+        "img": "https://i.ibb.co/RNyXXM3/eye-1-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Dental Care",
+        "short": "Your  teeth are an important part of your health. You should get your teeth checked as often as your health care provider recommends it",
+        "detail": "Good dental or oral care is important to maintaining healthy teeth, gums and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.",
+        "img": "https://i.ibb.co/F4ZJV2Q/dental-2-1.png"
+    },
+    {
+        "id": 3,
+        "name": "Orthopedic",
+        "short": "Orthopedic patients have benefited from technological advances such as joint replacement, and the arthroscope that allows the orthopedist to look inside a joint.",
+        "detail": "Orthopedics is a medical specialty that focuses on the diagnosis, correction, prevention, and treatment of patients with skeletal deformities - disorders of the bones, joints, muscles, ligaments, tendons, nerves and skin. These elements make up the musculoskeletal system.",
+        "img": "https://i.ibb.co/XSHvfK0/Orthopedic-3-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Cardiology",
+        "short": "Cardiology is a branch of medicine that deals with diseases of the heart as well as parts of the circulatory system.",
+        "detail": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. A cardiologist is not the same as a cardiac surgeon.",
+        "img": "https://i.ibb.co/LZcXyXQ/Cardiology-4-1.png"
+    },
+    {
+        "id": 5,
+        "name": "Gynecology",
+        "short": "A gynecologist is a doctor who specializes in female reproductive health. They diagnose and treat issues related to the female reproductive tract.",
+        "detail": "A gynecologist is a doctor who specializes in female reproductive health. They diagnose and treat issues related to the female reproductive tract. This includes the uterus, fallopian tubes, and ovaries and breasts. Anyone with female organs may see a gynecologist.  80% of those who see one are between 15 to 45 years old.",
+        "img": "https://i.ibb.co/zsxCwFs/Gynecology-5-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Gastroenterology",
+        "short": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver.",
+        "detail": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver. It involves a detailed understanding of the normal action of the gastrointestinal organs including the movement of material through the stomach.",
+        "img": "https://i.ibb.co/FhsNq6q/Gastroenterology-6-1.png"
+    }
+]
