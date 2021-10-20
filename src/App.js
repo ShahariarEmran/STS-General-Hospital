@@ -6,6 +6,7 @@ import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import NotFound from './components/NotFound/NotFound';
 import AuthProvider from './contexts/AuthProvider';
+import AboutUs from './Home/AboutUs/AboutUs';
 import Doctors from './Home/Doctors/Doctors';
 import Footer from './Home/Footer/Footer';
 import Header from './Home/Header/Header';
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/about">
+              <AboutUs></AboutUs>
             </Route>
             <PrivateRoute path="/detail/:serviceId">
               <Detail></Detail>

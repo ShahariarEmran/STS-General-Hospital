@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../images/banner-1.jpg'
-import banner2 from '../../images/banner-2.jpg'
-import banner3 from '../../images/banner-3.jpg'
-
+import banner1 from '../../images/banner-1.png'
+import banner2 from '../../images/banner-2.png'
+import banner3 from '../../images/banner-3.png'
+import './Banner.css'
 const Banner = () => {
     return (
         <div>
@@ -15,8 +15,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h1>STS General Hospital</h1>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h1 className="text">STS General Hospital</h1>
+                    <p className="text-p">Health is happiness not money, if you want to stay healthy, see a doctor in the hospital regularly.</p>
                 </Carousel.Caption>
             </Carousel.Item >
             <Carousel.Item style={{height:"100vh"}}>
@@ -27,8 +27,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                <h1>STS General Hospital</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1 className="text">STS General Hospital</h1>
+                <p className="text-p">Health is happiness not money, if you want to stay healthy, see a doctor in the hospital regularly.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{height:"100vh"}}>
@@ -39,8 +39,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h1>STS General Hospital</h1>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h1 className="text">STS General Hospital</h1>
+                    <p className="text-p">Health is happiness not money, if you want to stay healthy, see a doctor in the hospital regularly.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
