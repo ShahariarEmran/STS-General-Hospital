@@ -89,10 +89,10 @@ const useFirebase = () =>{
           })
       }
     
-      const setUserName = () => {
-        updateProfile(auth.currentUser, { displayName: name })
-          .then(result => { })
-      }
+      // const setUserName = () => {
+      //   updateProfile(auth.currentUser, { displayName: name })
+      //     .then(result => { })
+      // }
 
 
     
@@ -128,7 +128,10 @@ const useFirebase = () =>{
 
     return {
         user,
+        email,
+        password,
         setUser,
+        // setUserName,
         isLoading,
         setIsLoading,
         signInUsingGoogle,
