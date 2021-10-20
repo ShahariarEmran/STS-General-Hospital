@@ -77,13 +77,13 @@ const useFirebase = () =>{
       }
     
       const registerNewUser = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
-          .then(result => {
-            const user = result.user;
-            console.log(user);
-            setError('');
-            setUserName();
-          })
+       return createUserWithEmailAndPassword(auth, email, password)
+          // .then(result => {
+          //   const user = result.user;
+          //   console.log(user);
+          //   setError('');
+          //   setUserName();
+          // })
           .catch(error => {
             setError(error.message);
           })
@@ -132,7 +132,9 @@ const useFirebase = () =>{
         isLoading,
         setIsLoading,
         signInUsingGoogle,
+        registerNewUser,
         logOut,
+        isLogin,
         toggleLogin,
         handleGoogleSignIn,
         handleNameChange,
